@@ -21,9 +21,9 @@ Annotations to be used with JAX-RS web services to add header "Cache-Control" to
         <dispatcher>ERROR</dispatcher>
     </filter-mapping>
 
-If you use this approach, the @Provider is not needed in CacheFilterFactory.
+If you use this approach, the **@Provider** is not needed in CacheFilterFactory.
 
 ### Using ResourceConfig:
     packages("package.name"); //fetches all services, and resolvers dynamically
 
-This approach dynamically uses classes annotated with the @Provider.
+This approach dynamically uses classes annotated with the **@Provider**.
