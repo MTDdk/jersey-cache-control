@@ -7,6 +7,8 @@ Annotations to be used with JAX-RS web services to add header "Cache-Control" to
 ## Usage
 
 ### Using ResourceConfig:
+Include the CacheFilterFactory.java in **package.name** and refer to that package in your ResourceConfig
+
     public static class JerseyServletConfig extends ResourceConfig {
         public JerseyServletConfig() {
             packages("package.name"); //fetches all services, and resolvers dynamically
