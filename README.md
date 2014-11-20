@@ -3,6 +3,7 @@ jersey-cache-control
 
 Annotations to be used with JAX-RS web services to add header "Cache-Control" to the response.
 
+This project should be seen as nothing more than just a skeleton for annotation functionality in a JAX-RS environment.
 
 ## Usage
 
