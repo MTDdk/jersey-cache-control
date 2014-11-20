@@ -19,6 +19,7 @@ Include the CacheFilterFactory.java in **package.name** and refer to that packag
 This approach dynamically uses classes annotated with the **@Provider**.
 
 OR
+
 Register the CacheFilterFactory.java directly in your ResourceConfig
 
     public static class JerseyServletConfig extends ResourceConfig {
